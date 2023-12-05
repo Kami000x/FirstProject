@@ -1,0 +1,481 @@
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Montserrat+Subrayada&family=Noto+Serif+Balinese&family=Pathway+Extreme:opsz,wght@8..144,100&family=Permanent+Marker&family=Poppins:wght@100&family=Roboto:wght@100&family=Smooch&family=Sniglet&display=swap');
+
+    /*Base*/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 62.5%;
+
+    }
+
+
+
+    body{
+        font-family: "Montesrrat", sans-serif;
+        color: whitesmoke;
+
+        
+    }
+
+    a{
+        text-decoration: none;
+        font-weight: 400px;
+        font-size:1.6rem;
+        color: whitesmoke;
+        
+        
+    }
+
+
+
+    h1,p, h2{
+        margin: 1.6rem 0;
+    }
+
+
+
+    h1{
+        font-size: 3.6rem;
+        font-weight: 800;
+
+    }
+
+    h2{
+        font-size:2.5rem;
+        font-weight: 800;
+
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .row{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+    }
+
+    section{
+        padding: 100px 0;
+    }
+
+
+
+    /*header section*/
+
+    header{
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)),url("Tech-Companies-Need-More-Skilled-Workers.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+        background-position: center;
+    }
+
+
+    .logo h1{
+        font-size: 3.2rem;
+        color:#4caf50;
+        margin: 0;
+    }
+
+
+    nav{
+        padding: 2% 8%;
+        display: flex;
+        justify-content: space-between;
+        color: whitesmoke;
+    }
+
+    nav ul{
+        list-style: none;
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-left: 2.5rem;
+        
+    }
+
+    nav ul li a:hover{
+        color: #4caf50;
+        transition: 0.5s ease-in-out;
+
+
+    }
+
+    i{
+        font-size: 16px;
+        color: whitesmoke;
+    }
+
+
+    .icon{
+        display: none;
+    }
+
+
+
+
+    .header-content{
+        width: 50%;
+        position: relative;
+        top: 16%;
+        left: 7.9%;
+
+    }
+
+
+    form{
+        margin: 2.4rem 0;
+        
+    }
+
+
+    input{
+        font-size: 1.8rem;
+    }
+
+
+    input[type=text], input[type= email]{
+
+        width: 50%;
+        padding: 12px 20px;
+        margin: 1.2rem 0;
+        display: block;
+        border: 1px solid #ccc;
+    }
+
+
+    input[type=submit]{
+        width: 50%;
+        background-color: #4caf50;
+        color: #fff;
+        padding: 14px 20px;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-radius: 4px;
+    }
+
+
+    input::placeholder{
+        font-size: 1.3rem;
+        color: #ccc;
+    }
+
+    .about{
+        color: black;
+    }
+    .about-left,.about-right, .about-middle{
+        flex-basis: 30%;
+        padding: 1.6rem;
+    }
+
+
+    .btn{
+        
+        background-color: #4caf50;
+        color: #fff;
+        padding: 0 5rem;
+        margin: 2rem 0;
+        display: inline-block;
+        padding: 8px 16px;
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-radius: 4px;
+    }
+
+
+    .about2{
+        background-color: #222;
+        
+    }
+    .about2left{
+        flex-basis: 50%;
+        ;
+    }
+
+    .about2right{
+        flex-basis: 30%;
+    }
+
+
+    .about2 .card{
+        padding: 3rem 8rem;
+        color: #222;
+
+        background-color: #dcdcdc;
+        margin: 1.6rem;
+        text-align: center;
+    }
+
+
+    .process .row{
+
+        justify-content: center;
+
+    }
+
+
+    .process{
+        color: #222;
+    }
+
+
+    .process h2
+    {
+        color: #4caf50;
+    }
+
+
+    .process-content{
+        margin-top: 100px;
+        width: 100%;
+
+
+    }
+
+    .prog{
+        width: 80%;
+        height: 2px;
+        background-color: #222;
+
+        margin: auto;
+        position: relative;
+       
+    }
+    
+    .prog .c1,
+    .prog .c2,
+    .prog .c3{
+
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        position: absolute;
+
+        background-color: #222;
+    }
+
+
+    .prog .c1{
+        top: -10px;
+        left: 40px;
+    }
+
+    .prog .c2{
+        top: -10px;
+        left: 50%;
+    }
+    .prog .c3{
+        top: -10px;
+        right: 40px;
+    }
+
+    .box1, .box2, .box3{
+        padding: 1.8rem;
+        flex-basis: 30%;
+    }
+
+
+    .box2{
+        text-align: center;
+    }
+    .box3{
+        text-align: right;
+
+        ;
+    }
+
+    .testimony .row{
+
+        justify-content: space-evenly;
+
+
+
+    }
+    .testimony{
+        background-color: #222;
+        color: whitesmoke;
+
+    }
+
+    .testimony .test{
+        background-color: #505050;
+        padding: 4rem 8rem;
+        margin: 0 0.5rem;
+    }
+
+    .testimony .img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .testimony img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .contact h1{
+        color: #222;
+    }
+    .contact .row{
+        justify-content: center;
+
+
+
+    }
+
+    .contact form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .contact input{
+        width: 50%;
+    }
+
+
+    .contact textarea{
+        width: 50%;
+        height: 150px;
+        padding: 12px 20px;
+        font-size: 1.3rem;
+        border: 1px solid #ccc;
+        margin: 1.2rem 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ccc;
+        resize: none;
+    }
+
+
+    footer{
+        height: 80px;
+
+        background-color: #222;
+        color: #fff;
+        line-height: 80px;
+        text-align: center;
+    }   
+
+
+    @media only screen and (max-width: 768px) {
+
+
+        html,body{
+            width: 100%;
+            max-width: 100%;
+            overflow-x: none;
+        }
+
+        .row{
+            flex-direction: column;
+        }
+
+    .header-content{
+        width: 100%;
+        top: 10%;
+        left: 0;
+
+        text-align: center;
+        padding: 0 8px;
+    }
+
+
+    input[type=text],input[type=email], input[type=submit]{
+            width: 80%;
+            margin: 1rem auto;
+    
+    
+    
+        }
+
+        nav{
+            flex-direction: column;
+            position: relative;
+        }
+        nav .icon{
+            display: block;
+            padding: 0;
+            position: absolute;
+
+            top: 18px; right: 32px;
+
+
+        }
+        nav ul{
+            background-color: whitesmoke;
+
+            
+            display: none;  
+            
+            
+
+        }
+
+
+        nav ul li{
+            padding: 2%;
+            display: block;
+            /*display: none;*/
+        }
+        .showmenu{
+            display: block;
+        }
+
+
+
+        nav ul li a{
+            color: #222;
+        }
+
+
+        .testimony .test{
+
+            
+            margin: 1.8rem 0;
+        }
+
+
+        .prog{
+            display: none;
+        }
+
+        .box1, .box2{
+            text-align: center;
+        }
+        .box3{
+            text-align: center;
+    
+            ;
+        }
+
+        .contact form textarea{
+            width: 80%;
+             
+        }
+    }
